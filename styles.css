@@ -1,0 +1,41 @@
+/* add your CSS here */
+.animal-card {
+  width: 300px;
+  padding: 0px 15px 15px 15px;
+  margin: auto;
+  font-family: "Times New Roman", Georgia, serif;
+  /* line height looks higher than default on the prototype */
+  line-height: 1.3em;
+  border: 1px solid #bbb;
+  box-shadow: 7px 7px 2px #eaeaea;
+}
+.animal-name{
+  font-size: 1.7em;
+  /* border style 'none' as element should have border which is not visible on design prototype */
+  border: 1px none #bbb;
+}
+.animal-image{
+  width: 300px;
+  padding: 0 0 15px 0;
+  /* border style 'none' as element should have border which is not visible on design prototype */
+  border: 1px none #bbb;
+}
+.animal-information{
+  max-width: 300px;
+  padding: 15px 15px;
+  border: 1px solid #bbb;
+}
+/* using id as we target just one paragraph */
+.interesting-fact{
+  font-style: italic;
+}
+/* setting paddig-left to 0 as there is no indentation on the prototype */
+.no-dot{
+  list-style-type: none;
+  padding-left: 0;
+}
+/* Label looks slightly bigger on the prototype (not only bold) */
+ul span{
+  font-weight: bold;
+  font-size: 1.1em;
+}
